@@ -1,0 +1,22 @@
+input#search_term {
+	border-radius: 50px;
+	background-color: #EBEBEB;
+	border: none;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 16px 25px 16px 59px;
+	letter-spacing: -0.3px;
+	color: #2E2E2E;
+}
+input#search_term::placeholder {
+	color: inherit;
+	opacity: 0.6;
+}
+.input-group:before {
+    content: url(search-icon.svg);
+	position: absolute;
+	z-index: 4;
+	left: 25px;
+	top: 17px;
+	opacity: 0.74;
+}
